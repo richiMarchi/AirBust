@@ -1,0 +1,132 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: lightgoldenrodyellow;
+}
+
+.totSeats, .purchSeats, .resSeats, .freeSeats {
+    display: inline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.purchSeats {
+    color: red;
+}
+
+.resSeats {
+    color: orange;
+}
+
+.freeSeats {
+    color: green;
+}
+
+th, td {
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+div:not(.centered) {
+    font-size: large;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+.available {
+    background: lightgreen;
+}
+
+.reserved {
+    background: orange;
+}
+
+.personalReserved {
+    background: yellow;
+}
+
+.purchased {
+    background: red;
+}
+
+.available:hover, .reserved:hover {
+    border-color: yellow;
+}
+
+.personalReserved:hover {
+    border-color: lightgreen;
+}
+
+th {
+    font-size: larger;
+}
+
+section {
+    text-align: center;
+    margin-left: 170px;
+}
+
+table {
+    border-spacing: 10px;
+    margin: auto;
+}
+
+header {
+    font-style: italic;
+    text-align: center;
+    font-size: xx-large;
+    background: aquamarine;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+h1 {
+    margin-left: 170px;
+}
+
+nav {
+    float: left;
+    top: 35%;
+    position: fixed;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    border: 5px solid black;
+    background: burlywood;
+    font-size: xx-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+li {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+button {
+    border-radius: 10px;
+    font-size: large;
+    width: 120px;
+    height: 50px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+#buyButton {
+    display: none;
+}
+
+button:hover {
+    background-color: #6b6b6b;
+    color: white;
+}

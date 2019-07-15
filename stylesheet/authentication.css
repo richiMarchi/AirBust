@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: lightgoldenrodyellow;
+}
+
+label {
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+    font-size: xx-large;
+    color: darkblue;
+    background: lightgoldenrodyellow;
+}
+
+input {
+    font-size: xx-large;
+}
+
+#register {
+    margin-left: 5%;
+}
+
+#register, #login {
+    width: 15px;
+    height: 15px;
+}
+
+section {
+    text-align: center;
+    margin-left: 170px;
+}
+
+header {
+    font-style: italic;
+    text-align: center;
+    font-size: xx-large;
+    background: aquamarine;
+    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+h1 {
+    margin-left: 170px;
+}
+
+nav {
+    float: left;
+    top: 35%;
+    position: sticky;
+}
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    border: 5px solid black;
+    background: burlywood;
+    font-size: xx-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+li {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+button {
+    border-radius: 10px;
+    font-size: large;
+    width: 120px;
+    height: 50px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #6b6b6b;
+    color: white;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 400px;
+    background-color: black;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+p {
+    font-size: 15px;
+}
